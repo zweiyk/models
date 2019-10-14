@@ -22,7 +22,7 @@ INSERT INTO O_ATTR
 	'',
 	'retreat_duration',
 	0,
-	"ba5eda7a-def5-0000-0000-000000000002",
+	"ba5eda7a-def5-0000-0000-000000000003",
 	'',
 	'');
 INSERT INTO O_NBATTR
@@ -40,7 +40,7 @@ INSERT INTO O_ATTR
 	'',
 	'target_duration',
 	0,
-	"ba5eda7a-def5-0000-0000-000000000002",
+	"ba5eda7a-def5-0000-0000-000000000003",
 	'',
 	'');
 INSERT INTO O_NBATTR
@@ -61,6 +61,49 @@ INSERT INTO O_ATTR
 	"ba5eda7a-def5-0000-0000-000000000006",
 	'',
 	'');
+INSERT INTO O_NBATTR
+	VALUES ("acc10d81-0b39-4197-873d-f778f137ed5d",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
+INSERT INTO O_BATTR
+	VALUES ("acc10d81-0b39-4197-873d-f778f137ed5d",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
+INSERT INTO O_ATTR
+	VALUES ("acc10d81-0b39-4197-873d-f778f137ed5d",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6",
+	"837e0d3f-9544-45d7-a2a7-6d191b5c076c",
+	'line_detections',
+	'',
+	'',
+	'line_detections',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'0');
+INSERT INTO O_NBATTR
+	VALUES ("432bf01c-586d-4acf-b217-00fb17cab449",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
+INSERT INTO O_BATTR
+	VALUES ("432bf01c-586d-4acf-b217-00fb17cab449",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
+INSERT INTO O_ATTR
+	VALUES ("432bf01c-586d-4acf-b217-00fb17cab449",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6",
+	"acc10d81-0b39-4197-873d-f778f137ed5d",
+	'last_turn',
+	'',
+	'',
+	'last_turn',
+	0,
+	"dd074cdf-cf2e-43c1-96d4-546b665b3dc9",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("dd074cdf-cf2e-43c1-96d4-546b665b3dc9",
+	"00000000-0000-0000-0000-000000000000",
+	'Orientation',
+	'',
+	'',
+	'../../../../IO DTs/IO DTs.xtuml');
 INSERT INTO O_ID
 	VALUES (0,
 	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
