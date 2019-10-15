@@ -257,6 +257,12 @@ elif ( Direction::forward == param.direction )
 elif ( Direction::stop == param.direction )
   result = EV3M::stop( motor:EV3Motor::LEFT, brake:true );
   result = EV3M::stop( motor:EV3Motor::RIGHT, brake:true );
+/*elif ( Direction::LEFTward == param.direction )
+  result = EV3M::set_power( motor:EV3Motor::LEFT, power:100 );
+  result = EV3M::set_power( motor:EV3Motor::RIGHT, power:-100 );
+elif ( Direction::RIGHTward == param.direction )
+  result = EV3M::set_power( motor:EV3Motor::LEFT, power:-100 );
+  result = EV3M::set_power( motor:EV3Motor::RIGHT, power:100 );*/
 else
   LOG::LogFailure( message:"Invalid direction" );
 end if;',
